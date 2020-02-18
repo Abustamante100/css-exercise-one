@@ -1,15 +1,6 @@
-/* body text Styling */
+/* body styling */
 body {
   font-size: 14px;
-}
-
-/* body heading styling */
- h1 {
-  font: 2em sans-serif;
-}
-
- h3 {
-  font-size: 1.3em;
 }
 
 /* nav styling */
@@ -21,7 +12,11 @@ nav {
   width: 100%;
 }
 
-.example  {
+h1 {
+  font: 2em sans-serif;
+}
+
+.example {
   padding-top: 30px;
   text-align: center;
 }
@@ -32,13 +27,21 @@ section {
   width: 60%;
 }
 
+h3 {
+  font-size: 1.3em;
+  padding-top: 30px;
+  text-align: center;
+}
+
 .element, .l3d {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
 }
-/* last section divs */
+
+/* last 3 divs backgorund color */
+
 .l3d {
   background-color: #777
 }
