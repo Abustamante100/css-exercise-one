@@ -1,36 +1,44 @@
-body
+/* body text Styling */
+body {
   font-size: 14px;
 }
 
+/* body heading styling */
+ h1 {
+  font: 2em sans-serif;
+}
+
+ h3 {
+  font-size: 1.3em;
+}
+
+/* nav styling */
 nav {
   background color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
+.example  {
+  padding-top: 30px;
+  text-align: center;
+}
 
+/* section styling */
 section {
   margin: 0 auto;
   width: 60%;
 }
 
-h1 {
-  font-family sans-serif;
-  font-size: 2em;
-}
-
-.example, h3 {
-  padding-top: 30px;
-  text-align center
-}
-
-h3 {
-  font-size: 1.3em;
-}
-
-.element {
+.element, .l3d {
   background-color: green;
   height: 100px;
   margin 10px 0;
   width: 100%;
+}
+/* last section divs */
+.l3d {
+  background-color: #777
+}
